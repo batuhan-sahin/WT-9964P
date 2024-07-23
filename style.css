@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #1c6cc2;
+}
+.navbar a {
+  color: #fff;
+}
+
+.wrapper {
+  position: relative;
+}
+.circle {
+  position: absolute;
+  top: 50px;
+  height: 400px;
+  width: 400px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 30%,
+    rgb(8, 146, 231) 83%
+  );
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.circle::before {
+  content: "✈️";
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: rgba(9, 9, 121, 1);
+  font-size: 28px;
+  transform: rotate(-10deg);
+}
+
+.circle::after {
+  content: "✈️";
+  position: absolute;
+  right: 0;
+  border-radius: 50%;
+  background-color: rgba(9, 9, 121, 1);
+  font-size: 28px;
+  transform: rotate(-10deg);
+}
+.imgs {
+  z-index: 1;
+}
+.app-logos {
+  height: 48px;
+  width: 162px;
+}
+
+.img-logo {
+  height: 50px;
+}
+
+.icons {
+  font-size: 60px;
+  color: rgb(0, 136, 255);
+}
+
+.content {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 30%,
+    rgba(0, 98, 255, 0.7561525831035539) 83%
+  );
+  height: 550px;
+}
+
+.section-bottom {
+  background-color: #1c6cc2;
+}
